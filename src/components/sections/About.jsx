@@ -51,9 +51,9 @@ const About = () => {
                             <div className="flex flex-col gap-3 leading-relaxed">
                                 {PERSONAL_INFO.bio}
                                 <p className='py-2 text-base leading-relaxed'>
-                                    I have practical experience using WordPress with WooCommerce, HTML5, CSS3 , Tailwind CSS, JavaScript,TypeScript and frameworks such as React, JQuery and Boostrap to develop user focused responsive applications and websites.I have developed scalable applications and RESTful APIs using NodeJS . I also have the knowledge and experience in managing databases such as MongoDB, PostgreSQL and MySQL.
+                                    I’m confident in frontend and backend development, API integration, WordPress customization, and delivering projects on time. I would welcome the opportunity to contribute my skills to your team.
                                 </p>
-                                <p className='py-2 text-base leading-relaxed'> I write clear , effective and efficient code supported by unit testing and debugging to ensure high-quality, maintainable solutions.I am familiar with system architecture principles, and version control with git for effective collaboration and project management. Alongside my technical skills, I bring strong problem solving and organisational abilities, the capacity to manage multiple projects, and a commitment to continuous learning. I am enthusiastic about contributing to innovative projects within a supportive team environment.</p>
+                                
                             </div>
 
                         </FadeIn>

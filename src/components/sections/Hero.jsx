@@ -29,7 +29,7 @@ const Hero = () => {
               </h1>
             </FadeIn>
             <FadeIn delay={200}>
-              <p className='text-lg text-white max-w-[550px] '>Building modern, scalable web applications with React.js, Node.js, WordPress and cutting-edge technologies. Tranforming ideas into exceptional digital experiences.</p>
+              <p className='text-lg text-white max-w-[550px] '>Building modern, scalable web applications with React.js, Node.js, WordPress and cutting-edge technologies. Tranforming ideas into exceptional digital experiences by developing dynamic React frontends, creating RESTful APIs with Node.js & customizing WordPress themes and plugins.</p>
 
             </FadeIn>
             <FadeIn delay={300}>

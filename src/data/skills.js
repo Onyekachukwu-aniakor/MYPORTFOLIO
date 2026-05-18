@@ -19,7 +19,7 @@ export const skills = [
         id: 3,
         name: 'TypeScript',
         icon: 'FileType',
-        level: 'Intermediate',
+        level: 'Advanced',
         experience : '1+ years'
     },
     {

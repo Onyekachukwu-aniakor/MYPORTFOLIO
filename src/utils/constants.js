@@ -5,7 +5,7 @@ export const PERSONAL_INFO = {
     location: 'Brierley Hill, Dudley, UK',
     tagline : 'Crafting seamless digital experience with modern technologies',
     resume: '/resume.pdf',
-    bio: 'I am a passionate web developer and designer with knowledge and expertise across both frontend and backend technologies, as well as adobe creative suite(Illustrator, Photoshop)and Canva, eager to contribute to a collaborative and innovative team.   '
+    bio: 'I’m a skilled full stack developer with experience in ReactJS, NodeJS, and WordPress development. I have built responsive, user-friendly websites and web applications with a focus on clean code, performance, and modern UI/UX practices.'
 };
 
 export const SOCILA_LINKS = {
