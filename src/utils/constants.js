@@ -9,10 +9,10 @@ export const PERSONAL_INFO = {
 };
 
 export const SOCILA_LINKS = {
-    github: 'https://github.com',
-    linkedin : 'https://linkedin.com',
-    twitter : 'https://twitter.com',
-    whatsapp: 'https://whatsapp.com'
+    //github: 'https://github.com',
+    linkedin : 'https://linkedin.com/in/onyekachukwu-reuben-aniakor-b656b640a/',
+    twitter : 'https://twitter.com/@mimito042',
+    whatsapp: 'https://wa.me/447526000296'
 };
 
 export const STATS = [

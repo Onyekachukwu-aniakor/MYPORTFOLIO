@@ -79,6 +79,28 @@ export const projects = [
         demoUrl: ' https://pern-stack-product-store.onrender.com',
         //githubUrl: 'http://github.com'
     },
+    {
+        id: 9,
+        title : 'Farm Produce Grocery Store',
+        description: 'An organic farm produce grocery store',
+        image: '/images2/projects/project9.png',
+        category: 'Frontend',
+        technologies : [ 'TypeScript ','Vite','React','Tailwindcss'],
+       // metrics: '40% increase in conversion',
+        demoUrl: ' https://pern-grocery-store-client-ing508k1p.vercel.app/',
+        //githubUrl: 'http://github.com'
+    },
+    {
+        id: 10,
+        title : 'Restaurant Eatry Menu',
+        description: 'A standard restaurant eatry menu',
+        image: '/images2/projects/project10.png',
+        category: 'Frontend',
+        technologies : [ 'JavaScript ','Vite','React','Tailwindcss'],
+       // metrics: '40% increase in conversion',
+        demoUrl: ' https://sample-eatry-leaflet.onrender.com/',
+        //githubUrl: 'http://github.com'
+    },
 ];
 
-export const categories = ['All', 'WordPress', 'Full Stack MERN', 'Full Stack PERN'];
+export const categories = ['All','Frontend', 'WordPress', 'Full Stack MERN', 'Full Stack PERN'];

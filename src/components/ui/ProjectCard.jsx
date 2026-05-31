@@ -1,4 +1,4 @@
-import React from 'react'
+
 import {ExternalLink, TrendingUp, GitBranch} from 'lucide-react'
 
 

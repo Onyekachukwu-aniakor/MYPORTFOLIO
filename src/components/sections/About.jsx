@@ -1,7 +1,6 @@
-import { Download,Code2, Sparkles, Sparkle } from 'lucide-react'
-import React from 'react'
+import { Code2, Sparkles, Sparkle } from 'lucide-react'
 import { SiReact, SiJavascript,SiNodedotjs,SiGithub, SiTailwindcss,SiExpress,SiRedux, SiPostgresql,SiMongodb, SiWordpress, SiCanva, SiVite, SiHtml5 } from 'react-icons/si';
-import { PERSONAL_INFO, ABOUT_STATS } from '../../utils/constants';
+import { PERSONAL_INFO} from '../../utils/constants';
 import FadeIn from '../animations/FadeIn';
 import RadialGradientBackground from '../backgrounds/RadialGradientBackground';
 
@@ -39,12 +38,12 @@ const About = () => {
                                     Full Stack Developer
 
                                 </span>
-                                <Sparkles className='w-5 h-5 text-green-400'/>
+                                <Sparkles className='w-5 h-5 text-green-400 fill-green-400'/>
                             </div>
                         </FadeIn>
                         <FadeIn delay={100}>
                             <h2 className='text-xl lg:text-2xl font-normal leading-tight tracking-tight text-white'>
-                                Crafting digital experience that matter
+                                Crafting digital experience that matters
                             </h2>
                         </FadeIn>
                         <FadeIn delay={200}>
@@ -59,7 +58,7 @@ const About = () => {
                         </FadeIn>
                     </div>
                     <FadeIn delay={300}>
-                        <div className="grid grid-cols-4 gap-1.5">
+                        {/* <div className="grid grid-cols-4 gap-1.5">
                             {ABOUT_STATS.map((stat, index)=>(
                                 <div className="relative" key={index}>
                                     <div className="absolute -left-3 rounded-full top-0 w-1 h-full bg-gradient-to-b from-green-400 via-emerald-400 to-green-400"></div>
@@ -71,7 +70,7 @@ const About = () => {
                                     </p>
                                 </div>
                             ))}
-                        </div>
+                        </div> */}
                     </FadeIn>
                    {/*  <FadeIn delay={400}>
                         <button onClick={()=>window.open(PERSONAL_INFO.resume, '_blank') }
@@ -87,21 +86,21 @@ const About = () => {
                 <FadeIn delay={200}>
                     <div className="grid grid-cols-2 gap-3">
                         <div className="col-span-2 relative group">
-                            <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-black  to-gray-600 rounded-2xl blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-300"> </div>
-                            <div className="relative bg-gray-950 border border-gray-950 rounded-2xl px-2  hover:border-green-600 transition-all duration-300">
+                            <div className="absolute inset-0 bg-gradient-to-br from-black via-black  to-black/10 rounded-2xl blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-300"/> 
+                            <div className="relative bg-black/10 border border-gray-950 rounded-2xl px-2  hover:border-green-600 transition-all duration-300">
                                 <div className="flex items-start gap-2 ">
                                     <div className="p-1 bg-green-700 rounded-2xl">
                                         <Code2 className='w-5 h-5 '/>
                                     </div>
                                     <div className="flex-1 ">
                                         <h3 className='text-lg font-semibold text-white mb-2 '> Expertise</h3>
-                                        <p className='text-sm font-bold text-white leading-relaxed'>Specialised in building scalable frontend & backend with modern technologies and best practice</p>
+                                        <p className='text-sm font-bold text-white leading-relaxed'>Specialised in building scalable frontend & backend with modern technologies and best practices</p>
                                     </div>
                                 </div>
                             </div>
                         </div>
                         <div className="relative group">
-                            <div className="absolute inset-0 bg-gradient-to-br from-gray-950 via-gray-600-400 to-gray-950 rounded-2xl blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-300 "></div>
+                            <div className="absolute inset-0 bg-gradient-to-br from-black/10 via-black/20 to-black/30 rounded-2xl blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-300 "/>
                             <div className="relative border border-white rounded-2xl p-2 hover:border-green-400 transition-all duration-300 h-full">
                                 <div className="bg-green-700 w-fit p-1 rounded-2xl mb-2 ">
                                     <Sparkle className='w-5 h-5 text-white'/>
@@ -111,7 +110,7 @@ const About = () => {
                             </div>
                         </div>
                         <div className="relative group">
-                            <div className="absolute inset-0 bg-gradient-to-br from-gray-950 via-gray-600-400 to-gray-950 rounded-2xl blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-300 "></div>
+                            <div className="absolute inset-0 bg-gradient-to-br from-black/10 via-black/20 to-black/30 rounded-2xl blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-300 "></div>
                             <div className="relative border border-white rounded-2xl p-2 hover:border-green-400 transition-all duration-300 h-full">
                                 <div className="bg-green-700 rounded-2xl p-1 w-fit mb-1">
                                     <Sparkle className='w-5 h-5 text-white'/>
@@ -121,12 +120,12 @@ const About = () => {
                             </div>
                         </div>
                         <div className="col-span-2 relative group">
-                            <div className="absolute inset-0 bg-gradient-to-br from-gray-900 via-black  to-gray-600 rounded-2xl blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-300"></div>
-                            <div className="relative bg-gray-950 border border-gray-950 rounded-2xl px-2  hover:border-green-600 transition-all duration-300">
+                            <div className="absolute inset-0 bg-gradient-to-br from-black/10 via-black  to-black/30 rounded-2xl blur-xl opacity-50 group-hover:opacity-75 transition-opacity duration-300"/>
+                            <div className="relative bg-black/10 border border-gray-950 rounded-2xl px-2  hover:border-green-600 transition-all duration-300">
                                 <div className="grid grid-cols-3 gap-2 text-center">
                                     <div >
                                         <div className="font-bold text-xl mb-0.5">    96%</div>
-                                        <div className="leading-relaxed text-sm">Client Satisfaction/Delivery</div>
+                                        <div className="leading-relaxed text-sm">Work Delivery</div>
                                     </div>
                                     <div >
                                             <div className="font-bold text-xl mb-0.5">24/7</div>
@@ -148,7 +147,7 @@ const About = () => {
                 <div className="flex flex-col items-center gap-4">
                     <div className="text-center">
                         <h3 className='text-xl lg:text-2xl font-normal leading-tight tracking-tight text-white'> Tech Stack {/* & Expertise */}</h3>
-                        <p className='text-1xl font-normal text-white mb-2'> Technologies i work with to build amazing products</p>
+                        <p className='text-xl font-normal text-white mb-2'> Technologies i work with to build amazing websites</p>
                     </div>
                     <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-7 gap-4 w-full max-w-4xl">
                        { skills.map((skill, index)=>(

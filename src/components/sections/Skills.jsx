@@ -1,7 +1,8 @@
-import React from 'react'
+
 import {skills} from '../../data/skills'
 import * as Icons from 'lucide-react';
 import FadeIn from '../animations/FadeIn';
+import RadialGradientBackground from '../backgrounds/RadialGradientBackground';
 
 
 const Skills = () => {
@@ -64,6 +65,7 @@ const Skills = () => {
 
   return (
     <section id='skills' className='relative py-1 bg-black overflow-hidden '>
+        <RadialGradientBackground variant='skills'/>
         {/* Animation Background Gradient */}
         <div className="absolute inset-0 overflow-hidden">
             <div className="absolute top-1/4 left-0 w-96 h-96 bg-green-400/10 rounded-full blur-3xl opacity-50"/>

@@ -1,5 +1,5 @@
-import React from 'react'
-import {Mail, MapPin, Heart} from 'lucide-react'
+
+import {Mail, MapPin} from 'lucide-react'
 import { SiGithub} from 'react-icons/si'
 import {SlSocialLinkedin} from 'react-icons/sl'
 import { RiTwitterXLine, RiDribbbleLine,  RiWhatsappFill } from 'react-icons/ri'
@@ -19,8 +19,8 @@ const Footer = () => {
   return (
     <footer  className='relative bg-black overflow-hidden border-t border-white/20'>
       <div className="absolute inset-0 overflow-hidden">
-        <div className="absolute top-0 left-1/3 w-96 h-96 bg-green-400/20 opacity-40 rounded-full blur-3xl " />
-        <div className="absolute bottom-0 right-1/3 w-96 h-96 bg-green-400/20 opacity-40 rounded-full blur-3xl"/>
+        <div className="absolute top-0 left-1/3 w-96 h-96 bg-black/20 opacity-40 rounded-full blur-3xl " />
+        <div className="absolute bottom-0 right-1/3 w-96 h-96 bg-black/20 opacity-40 rounded-full blur-3xl"/>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-3 sm:px-4 lg:px-5 py-5">

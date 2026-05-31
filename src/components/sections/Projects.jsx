@@ -1,6 +1,6 @@
 import React, { useRef, useState } from 'react'
 import { projects, categories } from '../../data/projects'
-import {Briefcase,Sparkles, Target,Code2,  ChevronLeft, ChevronRight} from 'lucide-react';
+import {Briefcase, Target,Code2,  ChevronLeft, ChevronRight} from 'lucide-react';
 import { SiWordpress } from 'react-icons/si';
 import ProjectCard from '../ui/ProjectCard';
 import FadeIn from '../animations/FadeIn';
@@ -50,21 +50,22 @@ const Projects = () => {
     'All' : Target,
     'WordPress': SiWordpress,
     'Full Stack MERN' : Code2,
-    'Full Stack PERN': Code2
+    'Full Stack PERN': Code2,
+    'Frontend': Code2
   }
   return (
     <section id='projects' className='relative py-6 bg-black overflow-hidden '>
       <div className="absolute inset-0 overflow-hidden ">
       {/* Green circles in the background in below css with opacity-50 <div/> */}
-        <div className="absolute top-1/3 right-0 w-96 h-96 bg-green-400/20 opacity-40 rounded-full blur-3xl" />
-        <div className="absolute bottom-1/3 left-0 w-96 h-96 bg-green-400/20 opacity-40 rounded-full blur-3xl" />
-        <div className="absolute top-1/2 right-1/2 w-96 h-96 bg-green-400/20 opacity-40 rounded-full blur-3xl" />
+        <div className="absolute top-1/3 right-0 w-96 h-96 bg-black/20 opacity-40 rounded-full blur-3xl" />
+        <div className="absolute bottom-1/3 left-0 w-96 h-96 bg-black/10 opacity-40 rounded-full blur-3xl" />
+        <div className="absolute top-1/2 right-1/2 w-96 h-96 bg-black/10 opacity-40 rounded-full blur-3xl" />
       </div>
 
       <div className="relative z-10max-w-7xl mx-auto px-2 py-1 sm:px-4 lg:px-5">
         <FadeIn delay={0}>
           <div className="text-center mb-5">
-            <div className="inline-flex items-center gap-2 bg-green-400/30 border border-green-400/25 rounded-2xl mb-2 px-3 py-2">
+            <div className="inline-flex items-center gap-2 bg-green-400/10 border border-green-400/25 rounded-2xl mb-2 px-3 py-2">
               <Briefcase className='w-5 h-5 text-green-400'/>
               <span className=' text-green-400 leading-relaxed'>
                 My Work
@@ -81,7 +82,7 @@ const Projects = () => {
             {categories.map((category)=>(
               <button key={category} className={`group relative px-3 py-2 rounded-full font-medium transition-all duration-300 ${activeCategory === category ? 'text-white' : 'text-white/50 hover:text-white'}`}
               onClick={()=>handleCategoryChange(category)}>
-                <div className={`absolute inset-0 rounded-full transition-all duration-300 ${activeCategory === category ? 'bg-green/10 opacity-100' : 'bg-white/5 border border-white/10 group-hover:border-white/10'}`}/>
+                <div className={`absolute inset-0 rounded-full transition-all duration-300 ${activeCategory === category ? 'bg-black/10 opacity-100' : 'bg-white/5 border border-white/10 group-hover:border-white/10'}`}/>
                 <div className="relative flex items-center gap-2">
                   {React.createElement(categoryIcons[category], {className: 'w-4 h-5'})}
                   <span className='text-sm'>{category}</span>

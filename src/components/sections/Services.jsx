@@ -1,15 +1,17 @@
-import React from 'react'
+
 import {services} from '../../data/services'
 import * as Icons from 'lucide-react';
 import { Wrench } from 'lucide-react';
 import FadeIn from '../animations/FadeIn';
+import RadialGradientBackground from '../backgrounds/RadialGradientBackground';
 const Services = () => {
   return (
     <section id='services' className='relative py-2 bg-black overflow-hidden'>
+        <RadialGradientBackground variant='services'/>
         <div className="absolute inset-0 overflow-hidden">
-            <div className="absolute top-1/3 left-0 w-96 h-96 bg-green-400/20 opacity-40 rounded-full blur-3xl"/>
-            <div className="absolute bottom-1/3 right-0 w-96 h-96 bg-green-400/20 opacity-40 rounded-full blur-3xl"/>
-            <div className="absolute w-96 h-96 bg-green-400/20 opacity-40 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
+            <div className="absolute top-1/3 left-0 w-96 h-96 bg-black/20 opacity-40 rounded-full blur-3xl"/>
+            <div className="absolute bottom-1/3 right-0 w-96 h-96 bg-black/20 opacity-40 rounded-full blur-3xl"/>
+            <div className="absolute w-96 h-96 bg-black/20 opacity-40 rounded-full blur-3xl -translate-x-1/2 -translate-y-1/2" />
         </div>
         <div className="absolute inset-0 opacity-5" style={{backgroundImage:`
             linear-gradient(to right, white 1px, transparent 1px)

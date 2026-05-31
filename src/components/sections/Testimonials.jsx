@@ -1,4 +1,4 @@
-import React, { useRef, useState } from 'react'
+import  { useRef, useState } from 'react'
 import {ChevronLeft, ChevronRight, Quote, Star} from 'lucide-react'
 import { testimonials } from '../../data/testimonials'
 import FadeIn from '../animations/FadeIn'
