@@ -3,6 +3,17 @@
 export const projects = [
     {
         id: 1,
+        title : 'Real Estate Website',
+        description: 'Amazing WordPress website for real estate firm & agency',
+        image: '/images2/projects/project11.png',
+        category: 'WordPress',
+        technologies : ['Essential Real Estate',,'Kadence', 'Elementor', 'Classic Widgets', 'WP Forms Lite',  'LiteSpeed Cache', 'User Menus' ],
+        //metrics: '40% increase in conversion',
+        demoUrl: 'https://silver-armadillo-511553.hostingersite.com/',
+        //githubUrl: 'http://github.com'
+    },
+    {
+        id: 11,
         title : 'Food Delivery Shop',
         description: 'WordPress Ecommerce Food Delivery Shop',
         image: '/images2/projects/project8.png',
@@ -101,6 +112,7 @@ export const projects = [
         demoUrl: ' https://sample-eatry-leaflet.onrender.com/',
         //githubUrl: 'http://github.com'
     },
+    
 ];
 
 export const categories = ['All','Frontend', 'WordPress', 'Full Stack MERN', 'Full Stack PERN'];
