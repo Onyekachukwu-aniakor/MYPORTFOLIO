@@ -2,6 +2,28 @@
 
 export const projects = [
     {
+        id: 12,
+        title : 'Expense-Tracker website',
+        description: 'This project helps companies to track expenses and incomes either daily, weekly, monthly or yearly',
+        image: '/images2/projects/project12.png',
+        category: 'Full Stack MERN',
+        technologies : ['React', 'Node js','Express js','Mongodb'],
+        //metrics: '40% increase in conversion',
+        demoUrl: ' https://expense-tracker-five-nu-14.vercel.app/',
+        //githubUrl: 'http://github.com'
+    },
+    {
+        id: 13,
+        title : 'HR/Employee-Management-System',
+        description: 'This project will help companies to manage their employees efficiently with different user roles like admin-user and employee-user',
+        image: '/images2/projects/project13.png',
+        category: 'Full Stack MERN',
+        technologies : ['React', 'Node js','Express js','Mongodb'],
+        //metrics: '40% increase in conversion',
+        demoUrl: ' https://employee-management-system-qqbu.vercel.app/',
+        //githubUrl: 'http://github.com'
+    },
+    {
         id: 1,
         title : 'Real Estate Website',
         description: 'Amazing WordPress website for real estate firm & agency',
