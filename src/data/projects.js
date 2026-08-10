@@ -24,6 +24,17 @@ export const projects = [
         //githubUrl: 'http://github.com'
     },
     {
+        id: 14,
+        title : 'Hospital Appointment Management System',
+        description: 'This project will help hospital major Admin to manage the services of doctors and patients appointments efficiently',
+        image: '/images2/projects/project14.png',
+        category: 'Full Stack MERN',
+        technologies : ['React', 'Node js','Express js','Mongodb'],
+        //metrics: '40% increase in conversion',
+        demoUrl: ' https://hospital-appointment-booking-client.vercel.app/',
+        //githubUrl: 'http://github.com'
+    },
+    {
         id: 1,
         title : 'Real Estate Website',
         description: 'Amazing WordPress website for real estate firm & agency',
