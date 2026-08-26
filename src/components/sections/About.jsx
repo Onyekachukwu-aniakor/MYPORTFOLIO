@@ -35,7 +35,7 @@ const About = () => {
                             <div className="inline-flex items-center gap-2 px-5 py-1 border border-green-400 rounded-full w-fit">
                                 <Code2 className='w-5 h-5 text-green-400'/>
                                 <span className='text-sm text-green-400 font-bold'>
-                                    Full Stack Developer
+                                     Software Developer
 
                                 </span>
                                 <Sparkles className='w-5 h-5 text-green-400 fill-green-400'/>

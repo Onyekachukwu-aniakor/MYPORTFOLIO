@@ -1,11 +1,11 @@
 export const PERSONAL_INFO = {
     name: 'Aniakor Onyekachukwu Reuben',
-    title: 'React.js, Node.js & WordPress Developer',
+    title: 'Software Developer',
     email: 'carlosaniakorchukwu@gmail.com',
     location: 'Brierley Hill, Dudley, UK',
     tagline : 'Crafting seamless digital experience with modern technologies',
     resume: '/resume.pdf',
-    bio: 'I’m a skilled full stack developer with experience in ReactJS, NodeJS, and WordPress development. I have built responsive, user-friendly websites and web applications with a focus on clean code, performance, and modern UI/UX practices.'
+    bio: 'I’m a software developer with experience in ReactJS, NodeJS, and WordPress development. I have built responsive, user-friendly websites and web applications with a focus on clean code, performance, and modern UI/UX practices.'
 };
 
 export const SOCILA_LINKS = {

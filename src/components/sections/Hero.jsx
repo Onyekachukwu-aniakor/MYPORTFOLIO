@@ -25,7 +25,7 @@ const Hero = () => {
 
             <FadeIn delay={100}>
               <h1 className='text-2.5xl md:text-3xl lg:text-4xl font-normal text-white mb-6 leading-tight'>
-                React.js, Node.js & WordPress Developer Portfolio
+                Software Developer 
               </h1>
             </FadeIn>
             <FadeIn delay={200}>
